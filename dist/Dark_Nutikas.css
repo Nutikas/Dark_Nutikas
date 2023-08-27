@@ -112,10 +112,27 @@
 }
 
 /* I. App Window */
+#app-mount .guilds-2JjMmN {
+	background-color: transparent;
+}
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
+	background-color: rgb(0, 0, 0, var(--serverlist-brightness));
+}
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4::-webkit-scrollbar {
 	display: none;
 }
 
+#app-mount .guilds-2JjMmN [class*='expandedFolderBackground'] {
+	background: var(--foreground);
+}
+#app-mount .guilds-2JjMmN [class*='folder'] {
+	background: transparent;
+}
+
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+	background: var(--gradient);
+	background-color: transparent;
+}
 #app-mount
 	.guilds-2JjMmN
 	.tutorialContainer-1pL9QS
@@ -131,6 +148,16 @@
 	height: 100%;
 	width: 100%;
 	transition: 0.2s ease;
+}
+#app-mount
+	.guilds-2JjMmN
+	.tutorialContainer-1pL9QS
+	.listItem-3SmSlK:first-child
+	.wrapper-3kah-n.selected-1Drb7Z::before {
+	border-radius: 30%;
+}
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .homeIcon-r0w4ny {
+	display: none;
 }
 
 #app-mount,
