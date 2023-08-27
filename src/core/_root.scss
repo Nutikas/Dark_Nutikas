@@ -1,0 +1,74 @@
+@import 'hideUsers.scss';
+
+:root {
+	--odp-black: #282c34;
+	--odp-white: #abb2bf;
+	--odp-lightred: #e06c75;
+	--odp-darkred: #be5046;
+	--odp-green: #98c379;
+	--odp-lightyellow: #e5c07b;
+	--odp-darkyellow: #d19a66;
+	--odp-blue: #61afef;
+	--odp-magenta: #c678dd;
+	--odp-cyan: #56b6c2;
+	--odp-guttergray: #4b5263;
+	--odp-commentgray: #5c6370;
+
+	--rgb-highlight: 229, 204, 255; /* The main highlight color */
+	--rgb-background: 0, 0, 0; /* The main background color */
+	--rgb-text: var(--odp-white); /* The main text color */
+	--rgb-close-button: var(
+		--odp-darkred
+	); /* The main "close this" or "deny" color */
+	--rgb-online-color: var(
+		--odp-green
+	); /* The color used in the "online" user status symbol */
+	--rgb-afk-color: var(
+		--odp-darkyellow
+	); /* The color used in the "idle" user status symbol */
+	--rgb-dnd-color: var(
+		--odp-lightred
+	); /* The color used in the "do not disturb" user status symbol */
+	--rgb-streaming-color: var(
+		--odp-magenta
+	); /* The color used in the "streaming X" user status symbol */
+
+	--transition-time: 0.3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
+
+	--background-image: url(https://images.all-free-download.com/images/graphicthumb/starry_night_192398.jpg); /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
+	--background-position: center; /* Positions the background image */
+	--background-size: cover; /* Scales the background image */
+	--background-blur: 0px; /* Blurs the image which helps with readability of text infront of it */
+	--background-brightness: 100%; /* Changes the background images brightness */
+	--stars: url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png);
+
+	--home-button-image: url('https://i.imgur.com/GSM6FhB.png'); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--home-button-size: 60%; /* Size of the home button image | DEFAUT: cover */
+	--home-button-position: center; /* Position of home button image | DEAFULT: center */
+
+	--roundness: 50px;
+	--uno: rgb(25, 25, 27);
+	/* primary background color */
+	--dos: rgb(30, 30, 33);
+	/* secondary background color */
+	--tres: rgb(35, 35, 39);
+	/* tertiary background color */
+	--quatro: rgb(16, 16, 17);
+	/* quaternary background color */
+	--sheer: rgba(0, 0, 0, 0.6);
+	--veil: rgba(100, 100, 100, 0.2);
+
+	--font: 'gg sans';
+
+	--serverlist-brightness: 0.8; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+	--left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+	--middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+	--right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+	--overlay-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+
+	--window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
+	--window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
+	--scrollbar-colour: var(--odp-cyan); /* DEFAULT: rgb(255,255,255,0.05) */
+	--link-colour: var(--odp-blue); /* DEFAULT: #00b0f4 */
+	--update-notice-1: none;
+}
