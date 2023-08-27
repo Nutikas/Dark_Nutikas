@@ -6,7 +6,7 @@
  * @source https://github.com/Nutikas/Dark_Nutikas
 */
 
-@import url('https://nutikas.github.io/Dark_Nutikas/Dark_Nutikas.css');
+@import url('https://nutikas.github.io/Dark_Nutikas/dist/Dark_Nutikas.css');
 
 :root {
 	--hidden-user-width: 60px;
