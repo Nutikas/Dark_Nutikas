@@ -111,6 +111,13 @@
 	--text-link: var(--link-colour);
 }
 
+#app-mount .title-17SveM {
+	color: var(--odp-magenta);
+}
+#app-mount .icon-2xnN2Y {
+	color: var(--odp-magenta);
+}
+
 /* I. App Window */
 #app-mount .guilds-2JjMmN {
 	background-color: transparent;
@@ -180,20 +187,6 @@
 .wordmark-2u86JB svg {
 	display: none;
 }
-
-.titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::after {
-	content: '𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄';
-	position: absolute;
-	top: 5px;
-	left: 10px;
-	color: rgb(170, 170, 170);
-	display: block;
-	height: 16px;
-	width: fit-content;
-	pointer-events: none;
-	font-size: 14px;
-}
-
 .winButtonMinMax-3RsPUg:hover {
 	background-color: var(--rgb-highlight);
 }
@@ -483,20 +476,6 @@ a.channel-1Shao0:hover,
 	.wrapper-28eC3z
 	.childWrapper-1j_1ub {
 	background-color: transparent;
-}
-
-.homeIcon-FuNwkv {
-	background-color: white;
-	-webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
-	-webkit-mask-size: 45px;
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-position: center;
-	transform: scale(0.5);
-	transition: background-color 0.2s ease-in-out;
-	-webkit-mask-position: center;
-	margin-left: 0px;
-	height: 100% !important;
-	width: 100% !important;
 }
 
 #app-mount
@@ -3173,6 +3152,51 @@ svg[name='Activity'] {
 .bd-modal-wrapper .header,
 .bd-modal-wrapper .bd-modal-body {
 	background: transparent;
+}
+
+#app-mount .modeSelected-3DmyhH .name-28HaxV {
+	color: var(--odp-blue);
+}
+#app-mount .lineClamp1-1voJi7 {
+	color: var(--odp-green);
+}
+
+#app-mount .guilds-2JjMmN .acronym-2zrAHN {
+	background: var(--foreground);
+	color: var(--odp-green);
+}
+
+#app-mount .container-2cd8Mz .defaultColor-1GKx81 {
+	color: var(--odp-green);
+}
+
+#app-mount
+	.container-2cd8Mz
+	header.headerFull-34WFWN.header-3jUeHi
+	.defaultColor-1EVLSt {
+	color: var(--odp-magenta);
+}
+
+#app-mount .item-2LIpTv {
+	background-color: var(--odp-magenta);
+}
+
+#app-mount .container-q97qHp {
+	color: var(--odp-magenta);
+}
+
+#app-mount .title-17SveM {
+	color: var(--odp-magenta);
+}
+#app-mount .icon-2xnN2Y {
+	color: var(--odp-magenta);
+}
+
+#app-mount .member-2gU6Ar.selected-1-Z6gm .activity-2EQDZv strong {
+	color: var(--odp-magenta);
+}
+#app-mount .member-2gU6Ar.selected-1-Z6gm .title-17SveM {
+	color: var(--odp-magenta);
 }
 
 /* XI. Keyframes */
